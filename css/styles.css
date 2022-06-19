@@ -222,6 +222,16 @@ img {
 	line-height: 1.17;
 	text-align: center;
 	letter-spacing: 0.03em;
+	margin-bottom: 50px;
+}
+
+.work-list {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.work-list .work-item:not(:nth-child(3n)) {
+	margin-right: 30px;
 }
 
 /* Секция Команда */
