@@ -51,20 +51,14 @@ img {
 	padding-left: 15px;
 	margin-right: auto;
 	margin-left: auto;
-	outline: 1px solid red;
 }
 
 .section {
 	padding-top: 94px;
 	padding-bottom: 94px;
-	outline: 1px solid green;
 }
 
 /* HEADER */
-
-.bottom-line {
-	border-bottom: 1px solid #cecece;
-}
 
 /* Логотип в header */
 
@@ -147,6 +141,10 @@ img {
 	margin-left: 50px;
 }
 
+.bottom-line {
+	border-bottom: 1px solid #cecece;
+}
+
 /* Секция Hero */
 
 .hero {
@@ -183,6 +181,7 @@ img {
 .hero-button:focus {
 	background-color: #188ce8;
 }
+
 /* Секция Features */
 
 .features-list {
@@ -259,7 +258,7 @@ img {
 }
 
 .team-img {
-	padding-bottom: 30px;
+	margin-bottom: 30px;
 }
 
 .team-name {
@@ -269,7 +268,7 @@ img {
 	text-align: center;
 	letter-spacing: 0.03em;
 
-	padding-bottom: 10px;
+	margin-bottom: 10px;
 }
 
 .team-job {
@@ -278,7 +277,7 @@ img {
 	text-align: center;
 	letter-spacing: 0.03em;
 	color: var(--text-color);
-	padding-bottom: 30px;
+	margin-bottom: 30px;
 }
 
 .team-member {
