@@ -283,6 +283,7 @@ img {
 
 .team-member {
 	background-color: var(--main-background-color);
+	width: 270px;
 }
 
 /* Подвал */
@@ -320,8 +321,6 @@ img {
 	line-height: 1.71;
 	letter-spacing: 0.03em;
 	color: #ffffff;
-
-	margin-bottom: 9px;
 }
 
 .address-contact {
@@ -334,9 +333,8 @@ img {
 	text-decoration: none;
 }
 
-.address-mail {
+.address-list {
 	margin-bottom: 9px;
-	outline: 1px solid yellow;
 }
 
 .address-contact:hover,
