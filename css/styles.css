@@ -150,6 +150,9 @@ img {
 .hero {
 	background-color: #2f303a;
 	text-align: center;
+
+	padding-top: 200px;
+	padding-bottom: 200px;
 }
 
 .hero-title {
@@ -159,6 +162,8 @@ img {
 	letter-spacing: 0.06em;
 	text-transform: uppercase;
 	color: #ffffff;
+
+	margin-bottom: 30px;
 }
 
 .hero-button {
@@ -175,6 +180,8 @@ img {
 	background-color: var(--accent-color);
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 	border-radius: 4px;
+
+	padding: 10px 32px;
 }
 
 .hero-button:hover,
@@ -183,6 +190,10 @@ img {
 }
 
 /* Секция Features */
+
+.section-features {
+	padding-bottom: 0;
+}
 
 .features-list {
 	display: flex;
@@ -257,8 +268,9 @@ img {
 	margin-right: 30px;
 }
 
-.team-img {
-	margin-bottom: 30px;
+.team-descr {
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 .team-name {
@@ -277,7 +289,6 @@ img {
 	text-align: center;
 	letter-spacing: 0.03em;
 	color: var(--text-color);
-	margin-bottom: 30px;
 }
 
 .team-member {
@@ -289,9 +300,7 @@ img {
 
 .footer {
 	background-color: #2f303a;
-}
 
-.footer-info {
 	padding-top: 60px;
 	padding-bottom: 60px;
 }
